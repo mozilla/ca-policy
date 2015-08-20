@@ -1,0 +1,533 @@
+<!doctype html>
+<html class="windows x86 no-js" lang="en" dir="ltr" data-latest-firefox="40.0.2" data-esr-versions="[38]">
+  <head>
+    <meta charset="utf-8">
+<!--
+             _.-~-.
+           7''  Q..\
+        _7         (_
+      _7  _/    _q.  /
+    _7 . ___  /VVvv-'_                                            .
+   7/ / /~- \_\\      '-._     .-'                      /       //
+  ./ ( /-~-/||'=.__  '::. '-~'' {             ___   /  //     ./{
+ V   V-~-~| ||   __''_   ':::.   ''~-~.___.-'' _/  // / {_   /  {  /
+  VV/-~-~-|/ \ .'__'. '.    '::                     _ _ _        ''.
+  / /~~~~||VVV/ /  \ )  \        _ __ ___   ___ ___(_) | | __ _   .::'
+ / (~-~-~\\.-' /    \'   \::::. | '_ ` _ \ / _ \_  / | | |/ _` | :::'
+/..\    /..\__/      '     '::: | | | | | | (_) / /| | | | (_| | ::'
+vVVv    vVVv                 ': |_| |_| |_|\___/___|_|_|_|\__,_| ''
+
+Hi there, nice to meet you!
+
+Interested in having a direct impact on hundreds of millions of users? Join
+Mozilla, and become part of a global community that’s helping to build a
+brighter future for the Web.
+
+Visit https://careers.mozilla.org to learn about our current job openings.
+Visit https://www.mozilla.org/contribute for more ways to get involved and
+help support Mozilla.-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Mozilla CA Certificate Enforcement Policy — Mozilla</title>
+    <meta name="description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mozilla">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/enforcement/">
+    <meta property="og:image" content="https://mozorg.cdn.mozilla.net/media/img/mozorg/mozilla-256.c29a8b01d659.jpg">
+    <meta property="og:title" content="Mozilla CA Certificate Enforcement Policy">
+    <meta property="og:description" content="">
+    <meta property="fb:page_id" content="262134952380">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@mozilla">
+    <meta name="twitter:domain" content="mozilla.org">
+    <meta name="twitter:app:name:googleplay" content="Firefox">
+    <meta name="twitter:app:id:googleplay" content="org.mozilla.firefox">
+    <link rel="author" type="text/plain" href="/humans.txt">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="//mozorg.cdn.mozilla.net/media/img/favicon/apple-touch-icon-180x180.00050c5b754e.png">
+    <link rel="icon" type="image/png" sizes="196x196" href="//mozorg.cdn.mozilla.net/media/img/favicon/favicon-196x196.cb79ae3b6daf.png">
+    <link rel="shortcut icon" href="//mozorg.cdn.mozilla.net/media/img/favicon.52506929be4c.ico">
+        <link rel="canonical" hreflang="en" href="https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/enforcement/">
+    <link rel="alternate" hreflang="x-default" href="https://www.mozilla.org/about/governance/policies/security-group/certs/policy/enforcement/">
+    <link rel="alternate" hreflang="en" href="https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/enforcement/" title="English">
+    <link rel="alternate" hreflang="en-CA" href="https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/enforcement/" title="English (Canada)">
+        
+    
+
+    <!--[if lte IE 8]>
+            <script src="//mozorg.cdn.mozilla.net/media/js/libs/html5shiv.d580a4cd1cb4.js"></script>
+    <![endif]-->
+
+    <!--[if lte IE 7]>
+            <link href="//mozorg.cdn.mozilla.net/media/css/oldIE-bundle.6e95be05c1a1.css" rel="stylesheet" type="text/css" />    <![endif]-->
+
+    <!--[if !lte IE 7]><!-->
+              <link href="//mozorg.cdn.mozilla.net/media/css/responsive-bundle.e482dc96c502.css" rel="stylesheet" type="text/css" />    
+            <!--<![endif]-->
+
+    
+    <script type="text/javascript" src="//mozorg.cdn.mozilla.net/media/js/site-bundle.617f5d01bf0a.js" charset="utf-8"></script>
+    
+              <!-- Google Tag Manager -->
+<!-- Customized for Mozilla.org-->
+<!-- Region Container: NONE -->
+<!-- Rollup Container: System Filtered -->
+<!-- Site Container: NONE -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    //core dataLayer object goes here
+  });
+</script>
+
+<script>
+(function(w,d,s,l,i,j,f,dl,k,q){
+  w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});f=d.getElementsByTagName(s)[0];
+  k=i.length;q='//www.googletagmanager.com/gtm.js?id=@&l='+(l||'dataLayer');
+  while(k--){j=d.createElement(s);j.async=!0;j.src=q.replace('@',i[k]);f.parentNode.insertBefore(j,f);}
+}(window,document,'script','dataLayer',['GTM-MW3R8V']));
+</script>
+<!-- End Google Tag Manager -->
+      </head>
+
+  <body class="html-ltr sand">
+    <div id="strings"
+      data-global-close="Close"
+      data-global-next="Next"
+      data-global-previous="Previous"
+      data-global-update-firefox="Update your Firefox"
+      ></div>
+    <div id="outer-wrapper">
+
+        
+      <div id="wrapper">
+
+              <header id="masthead">
+
+                  <div id="tabzilla">
+            <a href="/en-US/">Mozilla</a>
+          </div>
+        
+                  <nav id="nav-main" role="navigation">
+            <span class="toggle" role="button" aria-controls="nav-main-menu" aria-expanded="false" tabindex="0">Menu</span>
+            <ul id="nav-main-menu">
+              <li class="first mission-item"><a href="/en-US/mission/">Mission</a></li>
+              <li class="about-item"><a href="/en-US/about/">About</a></li>
+              <li class="products-item"><a href="/en-US/firefox/products/">Products</a></li>
+              <li class="last contribute-item"><a href="/en-US/contribute/">Get Involved</a></li>
+            </ul>
+          </nav>
+        
+                  <h2><a href="/en-US/"><img class="js " src="" data-processed="false" data-src="//mozorg.cdn.mozilla.net/media/img/sandstone/header-mozilla-stone.5a157cb2c70c.png" data-high-res="true" data-high-res-src="//mozorg.cdn.mozilla.net/media/img/sandstone/header-mozilla-stone-high-res.e61d5c2e5341.png" width="170" alt="Mozilla" height="45"><noscript><img class="" src="//mozorg.cdn.mozilla.net/media/img/sandstone/header-mozilla-stone.5a157cb2c70c.png" width="170" alt="Mozilla" height="45"></noscript></a></h2>
+        
+        
+        
+        
+        
+        </header>
+      
+      
+                    
+      
+<div id="main-content">
+
+<article class="main-column">
+<h1>Mozilla CA Certificate Enforcement Policy</h1>
+<h3>(Version 2.2)</h3>
+
+<p>This section of the <a href="/en-US/about/governance/policies/security-group/certs/policy/">Mozilla CA Certificate Policy</a> describes the steps that Mozilla may take in order to enforce this policy. This includes evaluation of security concerns, and removing or disabling a root certificate.</p>
+
+<p>This is the official Mozilla policy for enforcing the <a href="/en-US/about/governance/policies/security-group/certs/policy/">Mozilla CA Certificate Policy:</a></p>
+
+<ol>
+  <li>
+    <p>When a serious security concern is noticed, such as a major root compromise, it should be treated as a security-sensitive bug, and the <a href="/en-US/about/governance/policies/security-group/bugs/">Mozilla Policy for Handling Security Bugs</a> should be followed.</p>
+  </li>
+  <li>
+    <p>Mozilla may, at its sole discretion, disable (partially or fully) or remove a certificate at any time and for any reason. Mozilla will disable or remove a certificate if the CA demonstrates ongoing or egregious practices that do not maintain the level of service that was established in the <a href="/en-US/about/governance/policies/security-group/certs/policy/inclusion/">Inclusion Section of the Mozilla CA Certificate Policy</a> or that do not comply with the requirements of the <a href="/en-US/about/governance/policies/security-group/certs/policy/maintenance/">Maintenance Section of the Mozilla CA Certificate Policy.</a></p>
+  </li>
+  <li>
+    <p>Mozilla will take any steps we deem appropriate to protect our users if we learn that a CA has knowingly or intentionally mis-issued one or more certificates. This may include, but is not limited to disablement (partially or fully) or removal of all of the CA’s certificates from Mozilla’s products. A certificate that includes domain names that have not been verified according to the <a href="https://www.cabforum.org/documents.html"> CA/Browser Forum’s Baseline Requirement #11.1.1 </a> is considered to be mis-issued. A certificate that is intended to be used only as an end entity certificate but includes a keyUsage extension with values keyCertSign and/or cRLSign or a basicConstraints extension with the cA field set to true is considered to be mis-issued.</p>
+  </li>
+  <li>
+    <p>A certificate is disabled by turning off one or more of the three trust bits (Websites, Email, Code Signing).
+    Disablement or removal of a certificate may be initiated by submitting a bug report to the mozilla.org Bugzilla system, as described in the <a href="https://wiki.mozilla.org/CA:Root_Change_Process">Root Change Process</a> or the <a href="/en-US/about/governance/policies/security-group/certs/policy/">Mozilla Policy for Handling Security Bugs</a>.</p>
+  </li>
+  <li>
+    <p>If Mozilla disables or removes a CA’s certificate(s) from Mozilla’s products based on a CA’s actions (or failure to act) that are contrary to the <a href="/en-US/about/governance/policies/security-group/certs/policy/">Mozilla CA Certificate Policy,</a> Mozilla shall publicize that fact in newsgroups on the news.mozilla.org server, on Web pages in the www.mozilla.org and www.mozilla.com domains, in news releases sent to organizations specializing in computer and Internet news, or as an alert to the US-CERT organization of the U.S. Department of Homeland Security.</p>
+  </li>
+</ol>
+
+<p>This policy applies only to software products distributed by Mozilla, including the Mozilla Foundation and its subsidiaries. Other entities distributing such software are free to adopt their own policies. In particular, under the terms of the
+relevant Mozilla license(s) distributors of such software are permitted to add or delete CA certificates in the versions that they
+distribute, and are also permitted to modify the values of the "trust bits" on CA certificates in the default CA certificate set. As with other software modifications, by making such changes a distributor may affect its ability to use Mozilla trademarks in connection with its versions of the software; see the <a href="/en-US/foundation/trademarks/policy/">Mozilla trademark policy</a> for more information.</p>
+
+<p>Please contact Mozilla at <a href="mailto:certificates@mozilla.org">certificates@mozilla.org</a> for more information about this policy and answers to related questions.</p>
+
+<p>We reserve the right to change this policy in the future. We will do so only after consulting with the public Mozilla community, in order to ensure that all views are taken into account.</p>
+
+</article>
+
+<aside class="sidebar">
+  <nav>
+    <ul>
+          <li>
+              <a href="/en-US/about/">About Mozilla</a>
+            </li>
+          <li>
+              <a href="/en-US/mission/">Mission</a>
+            </li>
+          <li>
+              <a href="/en-US/about/history/">History</a>
+            </li>
+          <li>
+              <a href="/en-US/about/leadership/">Leadership</a>
+            </li>
+          <li>
+              <a href="/en-US/about/governance/">Governance</a>
+            </li>
+          <li>
+              <a href="/en-US/about/forums/">Forums</a>
+            </li>
+        </ul>
+  </nav>
+
+  <div class="reference">
+    <h4>Our Products</h4>
+    <p>Software and other innovations designed to advance our mission.</p>
+    <a class="more" href="/en-US/firefox/products/">Learn More</a>
+  </div>
+
+  <div class="reference">
+    <h4>Get Involved</h4>
+    <p>Become a volunteer contributor in a number of different areas.</p>
+    <a class="more" href="/en-US/contribute/">Learn More</a>
+  </div>
+
+</aside>
+
+</div>
+
+
+              <aside>
+  <form id="mozorg-newsletter-form" class="billboard footer-newsletter-form newsletter-form" method="post" action="https://sendto.mozilla.org/page/s/sign-up-for-mozilla">
+    <h3>Get Mozilla updates</h3>
+
+    <div class="form-contents">
+      <div class="field field-email">
+        <label for="id_email" class="visually-hidden">Email</label>
+        <input name="email" type="email" id="id_email" value="" required aria-required="true" placeholder="YOUR EMAIL HERE">
+      </div>
+
+      <div id="form-details">
+        <!-- This is bad, but a quick fix because we are pushing live in an hour -->
+        <div class="field field-country">
+          <label for="country" class="visually-hidden">Country</label>
+          <select id="country" name="country">
+            <option value=""></option>
+            <option value="AF">Afghanistan</option>
+            <option value="AL">Albania</option>
+            <option value="DZ">Algeria</option>
+            <option value="AS">American Samoa</option>
+            <option value="AD">Andorra</option>
+            <option value="AO">Angola</option>
+            <option value="AI">Anguilla</option>
+            <option value="AG">Antigua and Barbuda</option>
+            <option value="AR">Argentina</option>
+            <option value="AM">Armenia</option>
+            <option value="AW">Aruba</option>
+            <option value="AU">Australia</option>
+            <option value="AT">Austria</option>
+            <option value="AZ">Azerbaijan</option>
+            <option value="BS">Bahamas</option>
+            <option value="BH">Bahrain</option>
+            <option value="BD">Bangladesh</option>
+            <option value="BB">Barbados</option>
+            <option value="BY">Belarus</option>
+            <option value="BE">Belgium</option>
+            <option value="BZ">Belize</option>
+            <option value="BJ">Benin</option>
+            <option value="BM">Bermuda</option>
+            <option value="BT">Bhutan</option>
+            <option value="BO">Bolivia</option>
+            <option value="BA">Bosnia and Herzegovina</option>
+            <option value="BW">Botswana</option>
+            <option value="BR">Brazil</option>
+            <option value="VG">British Virgin Islands</option>
+            <option value="IO">British Indian Ocean Territory</option>
+            <option value="BN">Brunei</option>
+            <option value="BG">Bulgaria</option>
+            <option value="BF">Burkina Faso</option>
+            <option value="BI">Burundi</option>
+            <option value="KH">Cambodia</option>
+            <option value="CM">Cameroon</option>
+            <option value="CA">Canada</option>
+            <option value="CV">Cape Verde</option>
+            <option value="KY">Cayman Islands</option>
+            <option value="CF">Central African Republic</option>
+            <option value="TD">Chad</option>
+            <option value="CL">Chile</option>
+            <option value="CN">China</option>
+            <option value="CX">Christmas Island</option>
+            <option value="CO">Colombia</option>
+            <option value="KM">Comoros Islands</option>
+            <option value="CD">Congo, Democratic Republic of the</option>
+            <option value="CG">Congo, Republic of the</option>
+            <option value="CK">Cook Islands</option>
+            <option value="CR">Costa Rica</option>
+            <option value="CI">Cote D'ivoire</option>
+            <option value="HR">Croatia</option>
+            <option value="CU">Cuba</option>
+            <option value="CY">Cyprus</option>
+            <option value="CZ">Czech Republic</option>
+            <option value="DK">Denmark</option>
+            <option value="DJ">Djibouti</option>
+            <option value="DM">Dominica</option>
+            <option value="DO">Dominican Republic</option>
+            <option value="TP">East Timor</option>
+            <option value="EC">Ecuador</option>
+            <option value="EG">Egypt</option>
+            <option value="SV">El Salvador</option>
+            <option value="GQ">Equatorial Guinea</option>
+            <option value="ER">Eritrea</option>
+            <option value="EE">Estonia</option>
+            <option value="ET">Ethiopia</option>
+            <option value="FK">Falkland Islands (Malvinas)</option>
+            <option value="FO">Faroe Islands</option>
+            <option value="FJ">Fiji</option>
+            <option value="FI">Finland</option>
+            <option value="FR">France</option>
+            <option value="GF">French Guiana</option>
+            <option value="PF">French Polynesia</option>
+            <option value="TF">French Southern Territories</option>
+            <option value="GA">Gabon</option>
+            <option value="GM">Gambia</option>
+            <option value="GE">Georgia</option>
+            <option value="DE">Germany</option>
+            <option value="GH">Ghana</option>
+            <option value="GI">Gibraltar</option>
+            <option value="GR">Greece</option>
+            <option value="GL">Greenland</option>
+            <option value="GD">Grenada</option>
+            <option value="GP">Guadeloupe</option>
+            <option value="GU">Guam</option>
+            <option value="GT">Guatemala</option>
+            <option value="GN">Guinea</option>
+            <option value="GW">Guinea-Bissau</option>
+            <option value="GY">Guyana</option>
+            <option value="HT">Haiti</option>
+            <option value="VA">Holy See (Vatican City State)</option>
+            <option value="HN">Honduras</option>
+            <option value="HK">Hong Kong</option>
+            <option value="HU">Hungary</option>
+            <option value="IS">Iceland</option>
+            <option value="IN">India</option>
+            <option value="ID">Indonesia</option>
+            <option value="IR">Iran</option>
+            <option value="IQ">Iraq</option>
+            <option value="IE">Ireland</option>
+            <option value="IL">Israel</option>
+            <option value="IT">Italy</option>
+            <option value="JM">Jamaica</option>
+            <option value="JP">Japan</option>
+            <option value="JO">Jordan</option>
+            <option value="KZ">Kazakhstan</option>
+            <option value="KE">Kenya</option>
+            <option value="KI">Kiribati</option>
+            <option value="KR">South Korea</option>
+            <option value="XK">Kosovo</option>
+            <option value="KW">Kuwait</option>
+            <option value="KG">Kyrgyzstan</option>
+            <option value="LA">Laos</option>
+            <option value="LV">Latvia</option>
+            <option value="LB">Lebanon</option>
+            <option value="LS">Lesotho</option>
+            <option value="LR">Liberia</option>
+            <option value="LI">Liechtenstein</option>
+            <option value="LT">Lithuania</option>
+            <option value="LU">Luxembourg</option>
+            <option value="MO">Macau</option>
+            <option value="MK">Macedonia</option>
+            <option value="MG">Madagascar</option>
+            <option value="MW">Malawi</option>
+            <option value="MY">Malaysia</option>
+            <option value="MV">Maldives</option>
+            <option value="ML">Mali</option>
+            <option value="MT">Malta</option>
+            <option value="MH">Marshall Islands</option>
+            <option value="MQ">Martinique</option>
+            <option value="MR">Mauritania</option>
+            <option value="MU">Mauritius</option>
+            <option value="YT">Mayotte</option>
+            <option value="MX">Mexico</option>
+            <option value="FM">Micronesia</option>
+            <option value="MD">Moldova, Republic of</option>
+            <option value="MC">Monaco</option>
+            <option value="MN">Mongolia</option>
+            <option value="ME">Montenegro</option>
+            <option value="MS">Montserrat</option>
+            <option value="MA">Morocco</option>
+            <option value="MZ">Mozambique</option>
+            <option value="MM">Myanmar</option>
+            <option value="NA">Namibia</option>
+            <option value="NR">Nauru</option>
+            <option value="NP">Nepal</option>
+            <option value="NL">Netherlands</option>
+            <option value="AN">Netherlands Antilles</option>
+            <option value="NC">New Caledonia</option>
+            <option value="NZ">New Zealand</option>
+            <option value="NI">Nicaragua</option>
+            <option value="NE">Niger</option>
+            <option value="NG">Nigeria</option>
+            <option value="NU">Niue</option>
+            <option value="NF">Norfolk Island</option>
+            <option value="MP">Northern Mariana Islands</option>
+            <option value="NO">Norway</option>
+            <option value="OM">Oman</option>
+            <option value="PK">Pakistan</option>
+            <option value="PW">Palau</option>
+            <option value="PA">Panama</option>
+            <option value="PG">Papua New Guinea</option>
+            <option value="PY">Paraguay</option>
+            <option value="PE">Peru</option>
+            <option value="PH">Philippines</option>
+            <option value="PN">Pitcairn Island</option>
+            <option value="PL">Poland</option>
+            <option value="PT">Portugal</option>
+            <option value="PR">Puerto Rico</option>
+            <option value="QA">Qatar</option>
+            <option value="RE">Reunion</option>
+            <option value="RO">Romania</option>
+            <option value="RU">Russian Federation</option>
+            <option value="RW">Rwanda</option>
+            <option value="KN">Saint Kitts and Nevis</option>
+            <option value="LC">Saint Lucia</option>
+            <option value="VC">Saint Vincent and the Grenadines</option>
+            <option value="WS">Samoa</option>
+            <option value="SM">San Marino</option>
+            <option value="ST">Sao Tome and Principe</option>
+            <option value="SA">Saudi Arabia</option>
+            <option value="SN">Senegal</option>
+            <option value="RS">Serbia</option>
+            <option value="SC">Seychelles</option>
+            <option value="SL">Sierra Leone</option>
+            <option value="SG">Singapore</option>
+            <option value="SK">Slovakia</option>
+            <option value="SI">Slovenia</option>
+            <option value="SB">Solomon Islands</option>
+            <option value="SO">Somalia</option>
+            <option value="ZA">South Africa</option>
+            <option value="ES">Spain</option>
+            <option value="LK">Sri Lanka</option>
+            <option value="SH">St. Helena</option>
+            <option value="PM">St. Pierre and Miquelon</option>
+            <option value="SD">Sudan</option>
+            <option value="SR">Suriname</option>
+            <option value="SZ">Swaziland</option>
+            <option value="SE">Sweden</option>
+            <option value="CH">Switzerland</option>
+            <option value="SY">Syria</option>
+            <option value="TW">Taiwan</option>
+            <option value="TJ">Tajikistan</option>
+            <option value="TZ">Tanzania</option>
+            <option value="TH">Thailand</option>
+            <option value="TG">Togo</option>
+            <option value="TK">Tokelau</option>
+            <option value="TO">Tonga</option>
+            <option value="TT">Trinidad and Tobago</option>
+            <option value="TN">Tunisia</option>
+            <option value="TR">Turkey</option>
+            <option value="TM">Turkmenistan</option>
+            <option value="TC">Turks and Caicos Islands</option>
+            <option value="TV">Tuvalu</option>
+            <option value="UG">Uganda</option>
+            <option value="UA">Ukraine</option>
+            <option value="AE">United Arab Emirates</option>
+            <option value="GB">United Kingdom</option>
+            <option value="US" selected="selected">United States</option>
+            <option value="UY">Uruguay</option>
+            <option value="UZ">Uzbekistan</option>
+            <option value="VU">Vanuatu</option>
+            <option value="VE">Venezuela</option>
+            <option value="VN">Viet Nam</option>
+            <option value="VI">Virgin Islands (U.S.)</option>
+            <option value="WF">Wallis and Futuna Islands</option>
+            <option value="EH">Western Sahara</option>
+            <option value="YE">Yemen</option>
+            <option value="ZM">Zambia</option>
+            <option value="ZW">Zimbabwe</option>
+          </select>
+        </div>
+
+        <div class="field field-privacy">
+          <label for="id_privacy" class="privacy-check-label">
+            <input required aria-required="true" type="checkbox" name="custom-314" id="id_privacy" />
+            <span class="title">I’m okay with Mozilla handling my info as explained in <a href="/en-US/privacy/">this Privacy Policy</a></span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-submit">
+      <input type="submit" id="footer_email_submit" value="Sign me up »" class="button">
+      <p class="form-details"><small>We will only send you Mozilla-related information.</small></p>
+    </div>
+  </form>
+</aside>
+
+  
+      </div><!-- close #wrapper -->
+
+                    <footer id="colophon" class="">
+        <nav class="row">
+          <div class="col col-1">
+            <h1 class="logo"><a href="/en-US/">Mozilla</a></h1>
+            <p class="license">Portions of this content are ©1998–2015 by individual mozilla.org contributors. Content available under a <a href="/en-US/foundation/licensing/website-content/">Creative Commons license</a>.</p>
+          </div>
+          <div class="col col-2">
+            <ul class="links-join">
+              <li><a href="/en-US/contact/spaces/">Contact Us</a></li>
+              <li class="wrap"><a href="/en-US/about/partnerships/">Partner with Us</a></li>
+              <li class="clear"><a href="https://sendto.mozilla.org/page/contribute/givenow-seq?preset=2&amp;source=mozillaorg_footer&amp;ref=EOYFR2014&amp;utm_campaign=EOYFR2014&amp;utm_source=mozilla.org&amp;utm_medium=referral&amp;utm_content=mozillaorg_footer" class="donate">Donate</a></li>
+              <li class="wrap"><a href="/en-US/contribute/friends/">Firefox Friends</a></li>
+              <li class="clear"><a href="https://wiki.mozilla.org/Webdev/GetInvolved/mozilla.org">Contribute to this site</a></li>
+            </ul>
+            <ul class="links-legal">
+              <li><a href="/en-US/privacy/">Privacy</a></li>
+              <li class="wrap"><a href="/en-US/privacy/websites/#cookies">Cookies</a></li>
+              <li class="wrap"><a href="/en-US/about/legal/">Legal</a></li>
+              <li class="clear"><a href="/en-US/about/legal/fraud-report/">Report Trademark Abuse</a></li>
+            </ul>
+          </div>
+          <div class="col col-3">
+            <ul class="links-social">
+              <li>
+                Mozilla:
+                <ul>
+                  <li><a href="https://twitter.com/mozilla">Twitter<span> (@mozilla)</span></a></li>
+                  <li><a href="https://www.facebook.com/mozilla">Facebook<span> (Mozilla)</span></a></li>
+                </ul>
+              </li>
+              <li>
+                Firefox:
+                <ul>
+                  <li><a href="https://twitter.com/firefox">Twitter<span> (@firefox)</span></a></li>
+                  <li><a href="https://www.facebook.com/Firefox">Facebook<span> (Firefox)</span></a></li>
+                  <li><a href="https://www.youtube.com/firefoxchannel">YouTube<span> (firefoxchannel)</span></a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="lang-switcher">
+                          </div>
+          </div>
+        </nav>
+      </footer>      
+    </div><!-- close #outer-wrapper -->
+
+    <!--[if IE 9]>
+      <script src="//mozorg.cdn.mozilla.net/media/js/libs/matchMedia.3fd01d1af18b.js"></script>
+    <![endif]-->
+
+      <script type="text/javascript" src="//mozorg.cdn.mozilla.net/media/js/mozorg-resp-bundle.9a4bc89b74aa.js" charset="utf-8"></script>              </body>
+</html>
