@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html class="osx x86 js loaded" dir="ltr" data-latest-firefox="40.0.3" data-esr-versions="[38]" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      <style type="text/css"></style></head>
+
+  <body class="html-ltr sand">
+    <div id="strings" data-global-close="Close" data-global-next="Next" data-global-previous="Previous" data-global-update-firefox="Update your Firefox"></div>
+    <div id="outer-wrapper">      
+                    
+      
+<div id="main-content">
+
+<article class="main-column">
+<h1>Mozilla CA Certificate Enforcement Policy</h1>
+<h3>(Version 2.2)</h3>
+
+<p>This section of the <a href="https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/">Mozilla CA Certificate Policy</a>
+ describes the steps that Mozilla may take in order to enforce this 
+policy. This includes evaluation of security concerns, and removing or 
+disabling a root certificate.</p>
+
+<p>This is the official Mozilla policy for enforcing the <a href="https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/">Mozilla CA Certificate Policy:</a></p>
+
+<ol>
+  <li>
+    <p>When a serious security concern is noticed, such as a major root 
+compromise, it should be treated as a security-sensitive bug, and the <a href="https://www.mozilla.org/en-US/about/governance/policies/security-group/bugs/">Mozilla Policy for Handling Security Bugs</a> should be followed.</p>
+  </li>
+  <li>
+    <p>Mozilla may, at its sole discretion, disable (partially or fully)
+ or remove a certificate at any time and for any reason. Mozilla will 
+disable or remove a certificate if the CA demonstrates ongoing or 
+egregious practices that do not maintain the level of service that was 
+established in the <a href="https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/inclusion/">Inclusion Section of the Mozilla CA Certificate Policy</a> or that do not comply with the requirements of the <a href="https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/maintenance/">Maintenance Section of the Mozilla CA Certificate Policy.</a></p>
+  </li>
+  <li>
+    <p>Mozilla will take any steps we deem appropriate to protect our 
+users if we learn that a CA has knowingly or intentionally mis-issued 
+one or more certificates. This may include, but is not limited to 
+disablement (partially or fully) or removal of all of the CA’s 
+certificates from Mozilla’s products. A certificate that includes domain
+ names that have not been verified according to the <a href="https://www.cabforum.org/documents.html"> CA/Browser Forum’s Baseline Requirement #11.1.1 </a>
+ is considered to be mis-issued. A certificate that is intended to be 
+used only as an end entity certificate but includes a keyUsage extension
+ with values keyCertSign and/or cRLSign or a basicConstraints extension 
+with the cA field set to true is considered to be mis-issued.</p>
+  </li>
+  <li>
+    <p>A certificate is disabled by turning off one or more of the three
+ trust bits (Websites, Email, Code Signing).
+    Disablement or removal of a certificate may be initiated by 
+submitting a bug report to the mozilla.org Bugzilla system, as described
+ in the <a href="https://wiki.mozilla.org/CA:Root_Change_Process">Root Change Process</a> or the <a href="https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/">Mozilla Policy for Handling Security Bugs</a>.</p>
+  </li>
+  <li>
+    <p>If Mozilla disables or removes a CA’s certificate(s) from 
+Mozilla’s products based on a CA’s actions (or failure to act) that are 
+contrary to the <a href="https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/">Mozilla CA Certificate Policy,</a>
+ Mozilla shall publicize that fact in newsgroups on the news.mozilla.org
+ server, on Web pages in the www.mozilla.org and www.mozilla.com 
+domains, in news releases sent to organizations specializing in computer
+ and Internet news, or as an alert to the US-CERT organization of the 
+U.S. Department of Homeland Security.</p>
+  </li>
+</ol>
+
+<p>This policy applies only to software products distributed by Mozilla,
+ including the Mozilla Foundation and its subsidiaries. Other entities 
+distributing such software are free to adopt their own policies. In 
+particular, under the terms of the
+relevant Mozilla license(s) distributors of such software are permitted 
+to add or delete CA certificates in the versions that they
+distribute, and are also permitted to modify the values of the "trust 
+bits" on CA certificates in the default CA certificate set. As with 
+other software modifications, by making such changes a distributor may 
+affect its ability to use Mozilla trademarks in connection with its 
+versions of the software; see the <a href="https://www.mozilla.org/en-US/foundation/trademarks/policy/">Mozilla trademark policy</a> for more information.</p>
+
+<p>Please contact Mozilla at <a href="mailto:certificates@mozilla.org">certificates@mozilla.org</a> for more information about this policy and answers to related questions.</p>
+
+<p>We reserve the right to change this policy in the future. We will do 
+so only after consulting with the public Mozilla community, in order to 
+ensure that all views are taken into account.</p>
+
+</article>
+
+</div>
+
+
+    </div><!-- close #outer-wrapper -->
+            
+</body></html>
