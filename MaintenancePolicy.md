@@ -210,7 +210,7 @@ We reserve the right to change this policy in the future. We will do so only
 after consulting with the public Mozilla community, in order to ensure that all
 views are taken into account.
 
-[policy]: https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/
+[policy]: ./index.html
 [inclusion]: ./InclusionPolicy.html
 [maintenance]: ./MaintenancePolicy.html
 [enforcement]: ./EnforcementPolicy.html

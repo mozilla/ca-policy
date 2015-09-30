@@ -383,7 +383,7 @@ after consulting with the public Mozilla community, in order to ensure that all
 views are taken into account.
 
 
-[policy]: https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/
+[policy]: ./index.html
 [trademark]: https://www.mozilla.org/en-US/foundation/trademarks/
 [certificates]: mailto:certificates@mozilla.org
 [CABF]: http://www.cabforum.org/documents.html

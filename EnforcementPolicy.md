@@ -68,7 +68,7 @@ views are taken into account.
 
 [inclusion]: ./InclusionPolicy.html
 [maintenance]: ./MaintenancePolicy.html
-[policy]: https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/
+[policy]: ./index.html
 [trademark]: https://www.mozilla.org/en-US/foundation/trademarks/
 [certificates]: mailto:certificates@mozilla.org
 [security-bugs]: https://www.mozilla.org/en-US/about/governance/policies/security-group/bugs/
