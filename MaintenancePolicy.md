@@ -1,3 +1,8 @@
+---
+layout: default
+permalink: MaintenancePolicy.html
+---
+
 Mozilla CA Certificate Maintenance Policy
 =========================================
 

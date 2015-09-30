@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 Mozilla CA Certificate Policy
 =============================
 

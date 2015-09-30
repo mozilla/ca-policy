@@ -1,3 +1,8 @@
+---
+layout: default
+permalink: EnforcementPolicy.html
+---
+
 Mozilla CA Certificate Enforcement Policy
 =========================================
 

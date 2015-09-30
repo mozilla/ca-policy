@@ -1,3 +1,8 @@
+---
+layout: default
+permalink: InclusionPolicy.html
+---
+
 Mozilla CA Certificate Inclusion Policy
 =======================================
 
