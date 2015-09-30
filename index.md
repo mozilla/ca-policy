@@ -5,6 +5,8 @@ layout: default
 Mozilla CA Certificate Policy
 =============================
 
+**canary 1**
+
 ### DRAFT Version 2.3
 
 When distributing binary and source code versions of Firefox, Thunderbird, and
