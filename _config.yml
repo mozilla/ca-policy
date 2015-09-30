@@ -1,5 +1,6 @@
 # Site settings
 title: Mozilla CA Certificate Policy
+basepath: "/ca-policy/"
 url: "https://bifurcation.github.io/ca-policy/"
 
 # Build settings
