@@ -1,0 +1,7 @@
+# Site settings
+title: Mozilla CA Certificate Policy
+baseurl: "/ca-policy/"
+url: "https://bifurcation.github.io/ca-policy/"
+
+# Build settings
+markdown: kramdown
