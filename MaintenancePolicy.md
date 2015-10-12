@@ -132,7 +132,7 @@ their CA Certificates that are distributed in Mozilla products:
 
     * SHA-256, SHA-384, SHA-512;
 
-    * Elliptic Curve Digital Signature Algorithm (using ANSI *.62) over SECG and
+    * Elliptic Curve Digital Signature Algorithm (using ANSI X9.62) over SECG and
       NIST named curves P-256, P-384, and P-512;
 
     * RSA 2048 bits or higher; and
