@@ -232,7 +232,7 @@ inclusion of their CA Certificates to be distributed in Mozilla products:
     We reserve the right to accept other criteria in the future.
 
 12. CA operations and issuance of certificates to be used for SSL-enabled
-    servers must also conform to version 1.1.5 of the [CA/Browser Forum
+    servers must also conform to version 1.3 or later of the [CA/Browser Forum
     Baseline Requirements for the Issuance and Management of Publicly-Trusted
     Certificates.][CABF] In the event of inconsistency between [Mozilla’s CA
     Certificate Policy][policy] requirements and the Baseline Requirements,
