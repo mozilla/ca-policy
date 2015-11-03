@@ -208,19 +208,6 @@ inclusion of their CA Certificates to be distributed in Mozilla products:
 11. We consider the criteria for CA operations published in any of the
     following documents to be acceptable:
 
-    * Clause 7, "Requirements on CA practice", in ETSI TS 101 456 V1.4.3 or
-      later version, [Policy requirements for certification authorities issuing
-      qualified certificates][ETSI-101-456] (only applicable to electronic
-      signature certificate issuance; applicable to either the "QCP public" or
-      "QCP public + SSCD" certificate policies);
-
-    * Clause 7, "Requirements on CA practice", in ETSI TS 102 042 V2.3.1 or
-      later version, [Policy requirements for certification authorities issuing
-      public key certificates][ETSI-102-042] (as applicable to the "EVCP" and
-      "EVCP+" certificate policies, DVCP and OVCP certificate policies for
-      publicly trusted certificates - baseline requirements, and any of the
-      "NCP", "NCP+", or "LCP" certificate policies);
-
     * WebTrust ["Principles and Criteria for Certification Authorities 2.0" or
       later][WebTrust-2.0] and ["SSL Baseline Requirements Audit Criteria
       V1.1"][WebTrust-BRs] (as applicable to SSL certificate issuance) in
@@ -229,6 +216,33 @@ inclusion of their CA Certificates to be distributed in Mozilla products:
     * WebTrust ["Principles and Criteria for Certification Authorities -
       Extended Validation Audit Criteria 1.4" or later][WebTrust-EV] in
       [WebTrust Program for Certification Authorities][WebTrust-For-CAs].
+
+    * Clause 7, "Requirements on CA practice", in ETSI TS 102 042 V2.3.1 or
+      later version, [Policy requirements for certification authorities issuing
+      public key certificates][ETSI-102-042] (as applicable to the "EVCP" and
+      "EVCP+" certificate policies, DVCP and OVCP certificate policies for
+      publicly trusted certificates - baseline requirements, and any of the
+      "NCP", "NCP+", or "LCP" certificate policies);
+
+    * Clause 6 “Trust Service Providers practice” in ETSI TS 119 411-1 V1.0.1 or 
+      later version [Policy and security requirements for Trust Service Providers 
+      issuing certificates; Part 1: General requirements][ETSI-119-411-1] 
+      (as applicable to the "EVCP" and "EVCP+" certificate policies, DVCP and 
+      OVCP certificate policies for publicly trusted certificates - baseline 
+      requirements and any of the and any of the "NCP", "NCP+", or "LCP" 
+      certificate policies);
+
+    * Clause 7, "Requirements on CA practice", in ETSI TS 101 456 V1.4.3 or
+      later version, [Policy requirements for certification authorities issuing
+      qualified certificates][ETSI-101-456] (only applicable to electronic
+      signature certificate issuance; applicable to either the "QCP public" or
+      "QCP public + SSCD" certificate policies);
+
+    * Clause 6 “Trust Service Providers practice” in ETSI TS 119 411-2 V2.0.7 or 
+      later version [Policy and security requirements for Trust Service Providers 
+      issuing certificates; Part 2: Requirements for trust service providers 
+      issuing EU qualified certificates][ETSI-119-411-2] (Applicable to either 
+      “QCP-l” or “QCP-l-qscd“ or “QCP-n” or ‘’QCP-n-qscd’’ or ‘’QCP-w)
 
     We reserve the right to accept other criteria in the future.
 
@@ -379,6 +393,8 @@ views are taken into account.
 [IANA-IPv6]: http://www.iana.org/assignments/ipv6-address-space/ipv6-address-space.xml
 [ETSI-101-456]: http://pda.etsi.org/pda/home.asp?wki_id=vXY0eat9Qxoquqxsw%27A2D
 [ETSI-102-042]: http://pda.etsi.org/pda/home.asp?wki_id=LJfRMZJQbbbekfdgITkht
+[ETSI-119-411-1]: http://www.etsi.org/deliver/etsi_ts/119400_119499/11941101/01.00.01_60/ts_11941101v010001p.pdf
+[ETSI-119-411-2]: http://www.etsi.org/deliver/etsi_ts/119400_119499/11941102/02.00.07_60/ts_11941102v020007p.pdf
 [ISO-21188:2006]: http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=35707
 [WebTrust-2.0]: http://www.webtrust.org/homepage-documents/item54279.pdf
 [WebTrust-BRs]: http://www.webtrust.org/homepage-documents/item72056.pdf
@@ -388,3 +404,4 @@ views are taken into account.
 [how-to-apply]: https://wiki.mozilla.org/CA:How_to_apply
 [policy-module]: https://wiki.mozilla.org/Modules/Activities#Mozilla_CA_Certificate_Policy
 [mozilla-governance]: https://wiki.mozilla.org/Modules/Activities#Governance
+
