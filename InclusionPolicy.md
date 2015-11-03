@@ -213,7 +213,7 @@ inclusion of their CA Certificates to be distributed in Mozilla products:
       Criteria for Certification Authorities – SSL Baseline with Network 
       Security – Version 2.0"][WebTrust-BRs] or later (as applicable to SSL 
       certificate issuance) in [WebTrust Program for Certification 
-      Authorities;][WebTrust-For-CAs];
+      Authorities][WebTrust-For-CAs];
 
     * WebTrust ["Principles and Criteria for Certification Authorities -
       Extended Validation SSL 1.4.5”][WebTrust-EV] or later in
