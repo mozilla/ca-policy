@@ -77,7 +77,7 @@ inclusion of their CA Certificates to be distributed in Mozilla products:
      not directly issue end-entity certificates to customers (e.g., the
      included certificate signs intermediate issuing certificates), as
      described in section 6.1.7 of the [CA/Browser Forum’s Baseline
-     Requirements][CABF];
+     Requirements][CABFBR];
 
    * prior to issuing certificates, verify certificate signing
      requests in a manner that we deem acceptable for the stated purpose(s)
@@ -118,7 +118,7 @@ inclusion of their CA Certificates to be distributed in Mozilla products:
 
    * for certificates to be used for and marked as Extended Validation, the CA
      complies with [Guidelines for the Issuance and Management of Extended
-     Validation Certificates][CABF] version 1.4 or later.
+     Validation Certificates][CABFEV] version 1.4 or later.
 
     We reserve the right to use other requirements in the future.
 
@@ -204,6 +204,7 @@ inclusion of their CA Certificates to be distributed in Mozilla products:
       independent party or parties with access to the details of the
       subordinate CA’s internal operations.
 
+
 11. We consider the criteria for CA operations published in any of the
     following documents to be acceptable:
 
@@ -234,7 +235,7 @@ inclusion of their CA Certificates to be distributed in Mozilla products:
 12. CA operations and issuance of certificates to be used for SSL-enabled
     servers must also conform to version 1.3 or later of the [CA/Browser Forum
     Baseline Requirements for the Issuance and Management of Publicly-Trusted
-    Certificates.][CABF] In the event of inconsistency between [Mozilla’s CA
+    Certificates.][CABFBR] In the event of inconsistency between [Mozilla’s CA
     Certificate Policy][policy] requirements and the Baseline Requirements,
     [Mozilla’s CA Certificate Policy][policy] takes precedence. The items
     listed below will be accepted as reason for not following the Baseline
@@ -244,7 +245,8 @@ inclusion of their CA Certificates to be distributed in Mozilla products:
 
     * Mozilla’s CA Certificate Policy defining a competent and independent
       auditor is a superset of section 8.2 of the [CA/Browser Forum’s Baseline
-      Requirements][CABF], and takes precedence over it.
+      Requirements][CABFBR], and takes precedence over it.
+
 
 13. By "competent party" we mean a person or other entity who is authorized to
     perform audits according to the stated criteria (e.g., by the organization
@@ -367,7 +369,8 @@ views are taken into account.
 [policy]: ./index.html
 [trademark]: https://www.mozilla.org/en-US/foundation/trademarks/
 [certificates]: mailto:certificates@mozilla.org
-[CABF]: http://www.cabforum.org/documents.html
+[CABFBR]: https://cabforum.org/baseline-requirements-documents/
+[CABFEV]: https://cabforum.org/extended-validation-2/
 [basicConstraints]: http://tools.ietf.org/html/rfc5280#section-6.1.4
 [extKeyUsage]: http://tools.ietf.org/html/rfc5280#section-4.2.1.12
 [nameConstraints]: http://tools.ietf.org/html/rfc5280#section-4.2.1.10
