@@ -116,12 +116,6 @@ inclusion of their CA Certificates to be distributed in Mozilla products:
      *or* has been authorized by the domain registrant to act on the
      registrant’s behalf;
 
-   * for certificates to be used for digitally signing code objects, the CA
-     takes reasonable measures to verify that the entity submitting the
-     certificate signing request is the same entity referenced in the
-     certificate *or* has been authorized by the entity referenced in the
-     certificate to act on that entity’s behalf;
-
    * for certificates to be used for and marked as Extended Validation, the CA
      complies with [Guidelines for the Issuance and Management of Extended
      Validation Certificates][CABF] version 1.4 or later.
@@ -180,13 +174,6 @@ inclusion of their CA Certificates to be distributed in Mozilla products:
      then all end-entity certificates MUST only include e-mail addresses or
      mailboxes that the issuing CA has confirmed (via technical and/or business
      controls) that the subordinate CA is authorized to use.
-
-   * If the certificate includes the id-kp-codeSigning extended key usage, then
-     the certificate MUST contain a directoryName permittedSubtrees constraint
-     where each permittedSubtree contains the organizationName, localityName
-     (where relevant), stateOrProvinceName (where relevant) and countryName
-     fields of an address that the issuing CA has confirmed belongs to the
-     subordinate CA.
 
 10. We recognize that technically constraining subordinate CA certificates as
     described above may not be practical in some cases. All certificates that are
@@ -332,12 +319,9 @@ inclusion of their CA Certificates to be distributed in Mozilla products:
       issues certificates for each of the following purposes within the CA
       hierarchy associated with the CA certificate:
 
-      * SSL-enabled servers,
+      * SSL-enabled servers, *or*
 
-      * digitally-signed and/or encrypted email, *or*
-
-      * digitally-signed executable code objects;
-
+      * digitally-signed and/or encrypted email;
 
     * for each CA certificate requested for inclusion, whether the CA issues
       Extended Validation certificates within the CA hierarchy associated with

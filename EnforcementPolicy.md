@@ -33,8 +33,8 @@ Policy][policy]:
   keyCertSign and/or cRLSign or a basicConstraints extension with the cA field
   set to true is considered to be mis-issued.
 
-* A certificate is disabled by turning off one or more of the three trust bits
-  (Websites, Email, Code Signing).  Disablement or removal of a certificate may
+* A certificate is disabled by turning off one or more of the trust bits
+  (Websites, Email).  Disablement or removal of a certificate may
   be initiated by submitting a bug report to the mozilla.org Bugzilla system, as
   described in the [Root Change Process][root-change-process] or the [Mozilla
   Policy for Handling Security Bugs][security-bugs].

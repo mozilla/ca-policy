@@ -180,8 +180,8 @@ their CA Certificates that are distributed in Mozilla products:
       [Applying for root inclusion in Mozilla
       products][how-to-apply-trust-bits];
 
-    * disabling a root is the act of turning off one or more of the three trust
-      bits (Websites, Email, Code Signing), and may be requested by a
+    * disabling a root is the act of turning off one or more of the trust
+      bits (Websites, Email), and may be requested by a
       representative of the CA or a representative of Mozilla by submitting a
       bug report into the mozilla.org Bugzilla system, as described in the [Root
       Change Process][root-change-process];
