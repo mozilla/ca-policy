@@ -220,9 +220,6 @@ inclusion of their CA Certificates to be distributed in Mozilla products:
       publicly trusted certificates - baseline requirements, and any of the
       "NCP", "NCP+", or "LCP" certificate policies);
 
-    * [ISO 21188:2006][ISO-21188:2006] Public key infrastructure for financial
-      services -- Practices and policy framework;
-
     * WebTrust ["Principles and Criteria for Certification Authorities 2.0" or
       later][WebTrust-2.0] and ["SSL Baseline Requirements Audit Criteria
       V1.1"][WebTrust-BRs] (as applicable to SSL certificate issuance) in
