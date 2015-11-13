@@ -32,14 +32,14 @@ Policy][policy]:
   certificates. This may include, but is not limited to disablement (partially
   or fully) or removal of all of the CA’s certificates from Mozilla’s products.
   A certificate that includes domain names that have not been verified according
-  to section 3.2.2.4 of the [CA/Browser Forum’s Baseline Requirements][CABF] is
+  to section 3.2.2.4 of the [CA/Browser Forum’s Baseline Requirements][CABFBR] is
   considered to be mis-issued. A certificate that is intended to be used only as
   an end entity certificate but includes a keyUsage extension with values
   keyCertSign and/or cRLSign or a basicConstraints extension with the cA field
   set to true is considered to be mis-issued.
 
-* A certificate is disabled by turning off one or more of the three trust bits
-  (Websites, Email, Code Signing).  Disablement or removal of a certificate may
+* A certificate is disabled by turning off one or more of the trust bits
+  (Websites, Email).  Disablement or removal of a certificate may
   be initiated by submitting a bug report to the mozilla.org Bugzilla system, as
   described in the [Root Change Process][root-change-process] or the [Mozilla
   Policy for Handling Security Bugs][security-bugs].
@@ -77,5 +77,5 @@ views are taken into account.
 [trademark]: https://www.mozilla.org/en-US/foundation/trademarks/
 [certificates]: mailto:certificates@mozilla.org
 [security-bugs]: https://www.mozilla.org/en-US/about/governance/policies/security-group/bugs/
-[CABF]: http://www.cabforum.org/documents.html
+[CABFBR]: https://cabforum.org/baseline-requirements-documents/
 [root-change-process]: https://wiki.mozilla.org/CA:Root_Change_Process

@@ -137,7 +137,7 @@ their CA Certificates that are distributed in Mozilla products:
 
     * SHA-256, SHA-384, SHA-512;
 
-    * Elliptic Curve Digital Signature Algorithm (using ANSI *.62) over SECG and
+    * Elliptic Curve Digital Signature Algorithm (using ANSI X9.62) over SECG and
       NIST named curves P-256, P-384, and P-512;
 
     * RSA 2048 bits or higher; and
@@ -147,14 +147,11 @@ their CA Certificates that are distributed in Mozilla products:
 9. We expect CAs to maintain current best practices to prevent algorithm attacks
    against certificates. As such, the following steps will be taken:
 
-   * after June 30, 2011, software published by Mozilla will return an error
-     when a certificate with an MD5-based signature is used;
+   * software published by Mozilla will return an error
+     when a certificate with an MD2, MD4, or MD5-based signature is used;
 
-   * all end-entity certificates with RSA key sizes smaller than 2048 bits must
-     expire by December 31, 2013;
-
-   * after December 31, 2013, Mozilla will disable or remove all root
-     certificates with RSA key sizes smaller than 2048 bits; and
+   * software published by Mozilla will return an error when the
+     SSL/TLS certificate has an RSA key size smaller than 2048 bits; and
 
    * all new end-entity certificates must contain at least 20 bits of
      unpredictable random data (preferably in the serial number).
@@ -185,8 +182,8 @@ their CA Certificates that are distributed in Mozilla products:
       [Applying for root inclusion in Mozilla
       products][how-to-apply-trust-bits];
 
-    * disabling a root is the act of turning off one or more of the three trust
-      bits (Websites, Email, Code Signing), and may be requested by a
+    * disabling a root is the act of turning off one or more of the trust
+      bits (Websites, Email), and may be requested by a
       representative of the CA or a representative of Mozilla by submitting a
       bug report into the mozilla.org Bugzilla system, as described in the [Root
       Change Process][root-change-process];

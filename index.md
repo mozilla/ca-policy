@@ -12,9 +12,8 @@ other Mozilla-related software products, Mozilla may include with such software
 a default set of X.509v3 certificates for various Certification Authorities
 (CAs). The certificates included by default have their "trust bits" set for
 various purposes, so that the software in question can use the CA certificates
-to verify certificates for SSL servers, S/MIME email users, and
-digitally-signed code objects without having to ask users for further
-permission or information.
+to verify certificates for SSL servers and S/MIME email users without having 
+to ask users for further permission or information.
 
 This is the official Mozilla policy for CA certificates that are distributed
 with Mozilla software products. This policy consists of the following three
